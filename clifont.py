@@ -13,7 +13,7 @@ try:
 	import wget
 	import shutil
 except:
-	print("You should install libraries. Try:\n\tpip install requests\n")
+	print("You should install libraries. Try:\n\tpip install  -r requirements.txt\n")
 	exit(-1)
 
 def getFontUrls(family, subset, style):
