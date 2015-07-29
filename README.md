@@ -6,7 +6,7 @@
  `sudo pip install -r requirements.txt`
  `sudo python clifont.py [font-name] [subset:latin|latin-ext|cyrillic] [styles:400|100|100italic|...]`
  
- With a font names with space replace it with a +'
+ With font names with space replace it with a +'
  
  e.g. PT+Sans
  
