@@ -34,6 +34,8 @@ if __name__ == "__main__":
 		print("You should use:\n\tsudo python {} font-name [subset:latin|latin-ext|cyrillic] [styles:400|100|100italic|...] ".format(__file__))
 		print("e.g.\n\tsudo python {0} Roboto latin 400\n\tpython {0} Roboto latin,latin-ext 100,100italic\n\n".format(__file__))
 		print("Possible font names may be, \"Pt Sans\",Roboto,Ubuntu,...")
+		print("On font name with spaces replace it with a +")
+		print("e.g. \n\tsudo python clifont.py Noto+Sans")
 		print("You can check further names at: https://www.google.com/fonts/")
 		exit(-2)
 	else:
